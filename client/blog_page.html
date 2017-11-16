@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jasmaine Portfolio Blog</title>
+<link rel="stylesheet" type="text/css" href="./styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="./app.js"></script>
+</head>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">NOOBIE Tech Blog</h1>
+    <p class="lead">The adventures of a regular chick finding her way in tech.</p>
+  </div>
+</div>
+<body>
+<form id="blog-form">
+  <div class="form-group">
+    <label for="Blog Title">Blog Title</label>
+    <input type="text" class="form-control" id="title-text" aria-describedby="textTitle" placeholder="Enter Blog Title">
+  </div>
+  <div class="text">
+    <label for="blog_post_label">Blog Post</label>
+    <textarea type="blog_post" class="form-control" id="blog_post" placeholder="Enter your posting"></textarea>
+  </div>
+  <br>
+  <button type="submit" class="btn btn-primary">Submit Blog Post</button>
+</form>
+<div id='blog_object'></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+</body>
+</html>
